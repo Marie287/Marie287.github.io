@@ -1,0 +1,141 @@
+
+.card-img-top{
+  height: auto!important;
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  padding:0;
+}
+.card-header{
+  width:100%;
+  padding:15px;
+}
+.card-header{
+  padding:15px;
+  height:130px  !important;
+}
+.icon_card_project{
+  height: 100%;
+  width: auto !important;
+  color: #cecece;
+}
+#icon_wsc{
+  opacity: 30%;
+  filter: grayscale(60%);
+}
+
+.effect{
+  opacity: 70%;
+  filter: grayscale(20%);
+}
+.card-body h5{
+  padding:0;
+  margin:auto;
+}
+.projects .card-body{
+  margin:15px 10px;
+  padding:0;
+}
+.projects .card{
+  border-radius: 7px;
+}
+.projects .card-header{
+  border-bottom:0px;
+}
+
+
+.card:hover .effect{
+  opacity: 100%;
+  filter: grayscale(0%);
+  transition-duration: 500ms;
+}
+
+.card:hover .icon_card_project{
+  color: #a2a2a2;
+  transition-duration: 500ms;
+}
+.card:hover #icon_wsc{
+  opacity: 50%;
+  filter: grayscale(30%);
+  transition-duration: 500ms;
+}
+
+.date{
+  color: #8e8e8e;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.modal .btn-close{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+.modal a:link, .modal a:active, .modal a:hover, .modal a, .git{
+  text-decoration: none;
+  color:#6d6d6d;
+}
+.modal a:hover{
+  text-decoration: underline;
+}
+.modal .modal-header{
+  background-color:#f2f2f2;
+  border-bottom:0px;
+}
+
+.carousel{
+  width: auto;
+  height:auto;
+  max-height: 550px;
+  margin: auto;
+}
+.carousel-item > img{
+  height: auto;
+  width:auto;
+  max-width: 100%;
+  max-height: 550px;
+  margin: auto;
+}
+.icon_outils{
+  height:42px !important;
+  width:42px !important;
+  color: #c1b28f;
+}
+.modal li{
+  list-style: '-  ';
+}
+.accordion-button{
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #88a6be;
+  text-transform: uppercase;
+  padding:10px;
+}
+.div_fonctio{
+  background-color: #fbfbfb;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.modal-header h1{
+  font-size:30px;
+}
+.accordion-body{
+  font-size:14px;
+}
+.accordion-button:not(.collapsed) {
+  color: #948154;
+  background-color: #f2f2f2;
+}
+.accordion-button:focus {
+  border-color: #f2f2f2;
+  box-shadow: 0 0 0 0.25rem #c1b28f5c;
+}
+.accordion-button:focus .collapsed{
+  box-shadow: 0 0 0 0.25rem #88a6be69
+}
+.span_bold{
+  font-weight: bold;
+  color: #484848;
+}
