@@ -60,12 +60,6 @@
   transition-duration: 500ms;
 }
 
-.date{
-  color: #8e8e8e;
-  letter-spacing: 1px;
-  font-size: 14px;
-}
-
 .modal .btn-close{
   position: absolute;
   right: 25px;

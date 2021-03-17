@@ -1,0 +1,35 @@
+.card{
+  border-radius: 0px;
+  background-color: #ffffff;
+  letter-spacing: 1.5px;
+  cursor:pointer;
+  border:0px;
+}
+.homepage .card{
+  height:130px
+}
+.card, .card:hover, .card:link, .card:active{
+  color:black;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.homepage .card:hover{
+  background-color:#c6c8b1;
+  background-color: #b7ae92;
+  transition-duration: 500ms;
+}
+.card h5{
+  font-size:17px !important;
+  color: #384e5c;
+}
+.card-body{
+  padding: auto auto;
+}
+.icon-card{
+  font-size: 35px;
+  color: #668497;
+}
+.card:hover .icon-card{
+  color: #746c52;
+  transition-duration: 500ms;
+}
