@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Contact</title>
+  <title>Mes Centres d'intérêt</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"><link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
-  <link href="./css/projets.css" rel="stylesheet">
+  <link href="./css/c_i.css" rel="stylesheet">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
 </head>
 
 <body class="fond1 d-flex align-items-center flex-column">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light w-100">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,25 +52,43 @@
 
 
 
-  <div id="bloc_contact" class="container my-auto row">
-    <div id="div_contact" class="m-auto">
+  <div class="container my-auto row">
+    <div id="div_ci" class="m-auto col-md-6 col-12">
       <div class="head1 text-center">
-        <h1>Contact</h1>
+        <h1>Mes Centres d'intérêt</h1>
         <hr class=" w-80 m-auto mb-4">
       </div>
 
-      <div id="div_contact" style="text-align:left">
-        <p><i class="fas fa-envelope icon_contact"></i> <a href="mailto:marie.bruggeman287@gmail.com" class="contact_text">marie.bruggeman287@gmail.com</a></p>
-        <p><i class="fas fa-phone icon_contact"></i> <a class="contact_text" href="tel:+33787730095">+33 7 87 73 00 95</a></p>
-        <p><i class="fab fa-linkedin icon_contact"></i> <a href="https://www.linkedin.com/in/marie287/" target="_blank" class="contact_text">linkedin.com/in/marie287/</a></p>
-        <p><i class="fab fa-github icon_contact"></i> <a href="https://github.com/Marie287/" target="_blank" class="contact_text">github.com/Marie287/</a></p>
-        <p><i class="fas fa-map-marker-alt icon_contact"></i> <span class="contact_text"> Lille, France</span></p>
+      <div class="center_bloc text-center">
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
+            <i class="fas fa-laptop icon_ci"></i>
+            <p>Nouveautés informatiques</p>
+          </div>
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
+            <i class="fas fa-heartbeat icon_ci"></i>
+            <p>Santé</p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
+            <i class="fas fa-plane-departure icon_ci"></i>
+            <p>Voyages</p>
+          </div>
+  
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
+            <i class="fas fa-seedling icon_ci"></i>
+            <p>Nature & Écologie</p>
+          </div>
+        </div>
       </div>
 
-    </div>
+      
 
+    </div>
   </div>
   
+  <br>
 
 </body>
 </html>

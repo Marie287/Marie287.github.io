@@ -59,7 +59,7 @@ li.nav-item{
 
 
 
-/* CONTACT */
+/* Contact */
 .icon_contact{
   color: #a2a2a2;
   font-size: 24px;
@@ -77,9 +77,69 @@ li.nav-item{
   color: #9cc3ba;
   transition-duration: 300ms;
 }
+#bloc_contact{
+  background-color: #ffffffc4;
+  border-radius: 7px;
+  padding: 38px 61px;
+  width:430px;
+}
+@media screen and (max-width: 480px) {
+  #bloc_contact{
+    width:100%;
+    padding: 38px 24px;
+  }
+}
 
-@media screen and (max-width: 992px) {
-  .container > div{
-    margin-top:100px !important;
+
+
+
+/* Compétences */
+.div_comp img{
+  max-height:50px;
+  max-width: 80px;
+  height:50px;
+}
+.div_comp > div > div >div > div > p{
+  color:#4e4e4e;
+}
+.div_comp > div >div > p{
+  color: #404b3e;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px 0px;
+  margin-bottom: 0px;
+  background-color: #b1baaf;
+}
+
+.div_comp > div >div {
+  background-color: #ffffffad;
+  margin:15px;
+  margin-top:0px;
+  padding:0px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.div_comp > div > div > div{
+  padding:15px;
+}
+.div_comp > div > div:hover {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+#div_analyse > div > div{
+  border: 2px dotted #dedede;
+  border-radius: 5px;
+}
+#div_analyse p{
+  margin:0px;
+}
+@media screen and (max-width: 740px) {
+  .div_comp > div >div {
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .div_comp > div > div > div, .div_comp > div > div > div > div {
+    width: 100%;
   }
 }

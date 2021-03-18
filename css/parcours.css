@@ -18,7 +18,6 @@
   text-align: left;
   font-size: 14px;
 }
-
 #parcours .accordion-button:not(.collapsed) {
   background-color: #ccdbca;
   background-color: #ccdbca;
@@ -80,4 +79,7 @@
 .row{
   background-color: #ffffffab;
   border-radius:5px;
+}
+.div_img{
+  height:300px;
 }

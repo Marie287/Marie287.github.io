@@ -31,5 +31,14 @@
 }
 .card:hover .icon-card{
   color: #746c52;
+  fill:#746c52;
   transition-duration: 500ms;
+}
+@media screen and (max-width: 992px) {
+  .container > div{
+    margin-top:100px !important;
+  }
+  .container{
+    height:auto;
+  }
 }
