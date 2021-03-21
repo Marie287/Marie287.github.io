@@ -16,6 +16,7 @@
 }
 .center_bloc > div > div:hover{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.175)!important;
+  transition-duration: 500ms;
 }
 .center_bloc > div > div > p {
   color: #824e33;
@@ -28,9 +29,6 @@
 .icon_ci {
   color: #bf6f47;
   font-size: 45px;
-}
-hr{
-  height: .5px;
 }
 @media screen and (max-width: 480px) {
   #div_ci{

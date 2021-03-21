@@ -35,26 +35,19 @@
   transition-duration: 500ms;
 }
 .alert_div{
-  width: 400px;
-  background-color: #ead0bad6;
+  background-color: #ffffff8f;
   border-radius: 6px;
-  padding: 10px 20px;
-  position: absolute;
-  top: 30px;
-  border: 5px solid #f2ede973;
+  padding: 10px 35px;
   color: #7d5937;
+  width: fit-content;
 }
 .alert_div > svg{
-  color: #cd915a;
-  font-size: 40px;
-  top: -22px;
-  left: 45%;
-  position: absolute;
+  color: #ccb299;
+  margin-bottom: -2px;
+  font-size: 25px;
+  margin-right: 12px;
 }
 @media screen and (max-width: 992px) {
-  .container > div{
-    margin-top:100px !important;
-  }
   .container{
     height:auto;
   }
@@ -65,5 +58,6 @@
 @media screen and (max-width: 451px) {
   .alert_div{
     width:100%;
+    padding: 10px 15px;
   }
 }

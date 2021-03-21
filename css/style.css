@@ -75,8 +75,9 @@ li.nav-item{
 }
 @media screen and (max-width: 480px) {
   #bloc_contact{
-    width:100%;
-    padding: 38px 24px;
+    width:97%;
+    padding: 28px 0px;
+    margin-top: 59px !important;
   }
 }
 .map{
