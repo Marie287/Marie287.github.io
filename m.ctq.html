@@ -31,7 +31,7 @@
                 d'encan en temps réel afin que les marchandises soient prises en charge par un transporteur. Les transporteurs 
                 rendent leurs camions disponibles. Dès que le manufacturier publie un chargement, 
                 une liste de transporteurs potentiels lui est présentée. Il peut donc choisir immédiatement et
-                sans délai le transporteur de son choix.
+                sans délai le transporteur de son choix. Ce projet peut être vu comme le "ebay du transport".
               </p>
               </div>
           </div>
@@ -45,9 +45,31 @@
           <div id="collapse_ctq_2" class="accordion-collapse collapse" aria-labelledby="acc_ctq_2" data-bs-parent="#accordion_ctq">
             <div class="accordion-body">
               <ul>
-                <li>Multi-langues : utilisation de fichiers JSON et de Javascript pour une traduction instantannée</li>
+                <li>Multi-langues (Anglais & Français): utilisation de fichiers JSON et de Javascript pour une traduction instantannée</li>
                 <li>Visuellement optimisé pour une accessibilité maximale</li>
                 <li>Aide toujours présente</li>
+              </ul>
+              <u>Espace transporteur :</u>
+              <ul>
+                <li>Un transporteur indique la liste de ses camions disponibles. Chaque camion est associé à un tracteur et à un équipement spécifique</li>
+                <li>Possibilité d'ajouter, supprimer ou modifier un camion, un équipement ou un tracteur</li>
+                <li>Possibilité de sélectionner quelques camions et de les afficher sur une carte</li>
+              </ul>
+              <u>Espace manufacturier :</u>
+              <ul>
+                <li>Le manufacturier publie un chargement en remplissant le formulaire de mise en vente.</li>
+                <li>Carte indiquant la position des camions disponibles (<a href="https://openlayers.org/" target="_blank">OpenLayers</a>). 
+                  Ils représentent les camions les plus proches qui sont disponibles entre l'adresse de départ et de destination, et correspondant 
+                  aux critères demandés
+                </li>
+                <li>Barre de recherche (origine et destination) par code postal ou avec le nom de la ville : ceci est validé/vérifé grâce à un fichier JSON listant 
+                  tous les code postaux du Canada avec leur position géographique (latitude, et longitude). Ces données nous permettent d'afficher l'origine, et 
+                  la destination précisémment sur la carte
+                </li>
+                <li>Dans le formulaire de mise en vente, plus il y aura de champs remplis, plus le prix total sera réduit</li>
+                <li>Possibilité d'ajouter une liste d'emails en les séparant par des points-virgules</li>
+              </ul>
+                
               </ul>
             </div>
           </div>
@@ -60,7 +82,14 @@
           </h2>
           <div id="collapse_ctq_3" class="accordion-collapse collapse" aria-labelledby="acc_ctq_3" data-bs-parent="#accordion_ctq">
             <div class="accordion-body">
-              
+              <p>
+                J'ai appris beaucoup de choses, et j'ai pris le temps qu'il fallait pour rendre ce site web le plus joli et agréable possible 👌. Grâce à mon équipier 
+                j'ai pu m'améliorer et consolider quelques-unes de mes compétences. J'étais contente du résultat, et heureuse d'avoir eu le temps de faire 
+                ce que je voulais, étant donné que c'était un projet personnel sans limite de temps imposée 😇.
+              </p>
+              <p>Suite à l'annulation de mon stage à cause de la pandémie, j'ai décidé de particper à ce projet pour compenser et m'occuper. J'étais ravie d'avoir 
+                cette belle opportunité !
+              </p>
             </div>
           </div>
         </div>
