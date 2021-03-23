@@ -17,9 +17,12 @@
   <link href="./css/style.css" rel="stylesheet">
   <link href="./css/c_i.css" rel="stylesheet">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-  <script src="./js/index.js" crossorigin="anonymous"></script>
+
+
+
 </head>
 
 <body class="fond1 d-flex align-items-center flex-column">
@@ -67,24 +70,56 @@
       <br>
       <div class="center_bloc text-center">
         <div class="row d-flex justify-content-center">
-          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
-            <i class="fas fa-laptop icon_ci"></i>
-            <p>Nouveautés informatiques</p>
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column div_ci2">
+            <div class="div_ci22 d-flex justify-content-center align-items-center flex-column">
+              <div class="c_i_title">
+                <i class="fas fa-laptop icon_ci"></i>
+                <p>Nouveautés informatiques</p>
+              </div>
+              <p class="c_i_text">
+                Voilà pourquoi c'est le domaine dans lequel je veux travailler. J'adore 
+                approfondir certains concepts que je ne connais pas encore. On apprend toujours en informatique, tout évolue, l'innovation est 
+                quotidienne, et le progrès démontre qu'un nombre incalculable de choses est possible à réaliser.
+              </p>
+            </div>
           </div>
-          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
-            <i class="fas fa-heartbeat icon_ci"></i>
-            <p>Santé</p>
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column div_ci2">
+            <div class="div_ci22 d-flex justify-content-center align-items-center flex-column">
+              <div class="c_i_title">
+                <i class="fas fa-heartbeat icon_ci"></i>
+                <p>Santé</p>
+              </div>
+              <p class="c_i_text">Le domaine de la santé m'a toujours intéressé. C'est d'ailleurs la raison pour laquelle j'ai voulu 
+                étudier la médecine. Cet immense domaine de connaissances sur le corps humain est très attirant par sa complexité. C'est d'ailleurs un 
+                sujet qui nous concerne tous directement. Savoir comment notre corps fonctionne, de quoi il est composé, c'est passionnant.
+              </p>
+            </div>
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
-            <i class="fas fa-plane-departure icon_ci"></i>
-            <p>Voyages</p>
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column div_ci2">
+            <div class="div_ci22 d-flex justify-content-center align-items-center flex-column">
+              <div class="c_i_title">
+                <i class="fas fa-plane-departure icon_ci"></i>
+                <p>Voyages</p>
+              </div>
+              <p class="c_i_text">Mon échange au Québec a été si captivant ! J'ai découvert une nouvelle culture, une nouvelle langue, 
+                une atmoshpère différente. Vivre dans un pays étranger, c'est l'une des plus belles expériences. On en ressort des étoiles plein les yeux 🤩. 
+                C'est aussi ce voyage qui m'a donné envie de bouger un peu plus. Je n'hésiterais pas à y retourner (là-bas ou même ailleurs), pour effectuer un stage ou même y travailler plus tard ! 
+              </p>
+            </div>
           </div>
-  
-          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column">
-            <i class="fas fa-seedling icon_ci"></i>
-            <p>Nature & Écologie</p>
+          <div class="col-sm-6 col-12 d-flex justify-content-center align-items-center flex-column div_ci2">
+            <div class="div_ci22 d-flex justify-content-center align-items-center flex-column">
+              <div class="c_i_title">
+                <i class="fas fa-seedling icon_ci"></i>
+                <p>Nature & Écologie</p>
+              </div>
+              <p class="c_i_text">L'écologie a toujours été primordiale pour moi. La nature est doit être a tout prix préservée. 
+                Les articles à ce sujets attirent toujours mon attention ! J'essaie toujours de trouver quelques petites actions 
+                que je pourrais faire de mon côté pour soutenir cette cause.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -93,5 +128,13 @@
   
   <br>
 
+  <script>
+    $(".div_ci22").hover(function () {
+      $(".c_i_text").not(this).hide();
+      $(this).children(".c_i_text").show("fade",200);
+    }, function () {
+      $(this).children(".c_i_text").hide();
+    });
+  </script>
 </body>
 </html>

@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 body{
-  background: url("../images/fond3.png") no-repeat center center fixed;
+  background: url("../images/background.png") no-repeat center center fixed;
   background-size: cover;
 }
 #background{
@@ -124,6 +124,8 @@ li.nav-item{
 #div_analyse > div > div{
   border: 2px dotted #dedede;
   border-radius: 5px;
+  height: 50px;
+}
 }
 #div_analyse p{
   margin:0px;
